@@ -677,6 +677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598745373062378710}
+  - component: {fileID: 2492614964494171044}
   m_Layer: 0
   m_Name: player XR - michael
   m_TagString: Untagged
@@ -699,8 +700,23 @@ Transform:
   - {fileID: 8265815646172090637}
   - {fileID: 2113179119579448513}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2492614964494171044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971480283188491386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 791a9c965aad8e549bf75defd43a549d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpActionReference: {fileID: 637354518504732195, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  jumpForce: 500
 --- !u!1 &8657726597960046440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,12 +1473,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: d57e991a-f2f0-402d-a3db-df6c6eced005
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 90503a57-d9e0-4ebb-991f-136aa5165dd9
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -1477,12 +1493,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 968f67cd-6894-47df-961b-3b2173b72fc3
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 2889491a-46da-48f3-ab0d-d90c46cce9df
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
