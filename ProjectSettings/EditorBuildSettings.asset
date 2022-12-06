@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/tracy tropica.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/scene debut.unity
+    guid: aae0dfd22f524044b90fb488b2d45287
   - enabled: 1
     path: Assets/outdoor_xr_michael.unity
     guid: 449c6b61dcfa32b4fadbdf0ae11fede4
