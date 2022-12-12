@@ -7,8 +7,8 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.8C24D059" = "input action"
-	"OpenInspectorPreview.8C24D059" = "0"
+	"last_search.8C24D059" = "packets"
+	"OpenInspectorPreview.8C24D059" = "1"
 	"currentGroup.8C24D059" = "all"
 }
 providers = {
@@ -56,10 +56,10 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"p"
+	"w"
 	"x"
 	"s"
-	"w"
-	"p"
 ]
 searchItemFavorites = [
 ]
